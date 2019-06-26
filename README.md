@@ -1,6 +1,9 @@
 HPC tests used in HPC-CI with terraform libvirt provider as the
 test environment.
 
+You can also find some simplistic shell tests which can be executed
+on the HPC cluster provisioned in a diffrent way, for instance by openQA.
+
 The test repository is providing HPC tests which are meant to
 run in combination with terraform tool. For details see:
 https://www.terraform.io/
