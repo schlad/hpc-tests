@@ -5,3 +5,4 @@
 #
 
 echo "Test 2"
+scontrol show partition
