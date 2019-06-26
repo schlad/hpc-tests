@@ -6,6 +6,14 @@
 
 run_basic () {
     echo "Tests execution starts"
+    for TEST in ./basic/*
+        do
+	if [ -f $TEST -a -x $TEST ]
+	then
+            $TEST
+        fi
+        done
+    echo "All tests executed!"
 }
 
 run_basic
