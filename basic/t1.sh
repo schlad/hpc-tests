@@ -5,3 +5,4 @@
 #
 
 echo "Test 1"
+sinfo
